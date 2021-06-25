@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Form Validation</h1>
+    <center>
+        <div class="signupinput">
+            <h2>Sign Up</h2>
+            <table>
+                <tr>
+                    <td>
+                        <h4>Name</h4>
+                    </td>
+                    <td><input type="text" id="username"></td>
+                    <td><h5 id="nameerror" style="color: red; visibility: hidden;">This Should Be Filled</h5></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Phone</h4>
+                    </td>
+                    <td><input type="number" id="phone"></td>
+                    <td><h5 id="phoneerror" style="color: red; visibility: hidden;">This Should Be Filled</h5></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Email ID</h4>
+                    </td>
+                    <td><input type="email" id="emailid"></td>
+                    <td><h5 id="emailerror" style="color: red; visibility: hidden;">This Should Be Filled</h5></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Password</h4>
+                    </td>
+                    <td><input type="password" id="password"></td>
+                    <td><h5 id="passworderror" style="color: red; visibility: hidden;">This Should Be Filled</h5></td>
+                </tr>
+            </table>
+            <button id="signupbtn" type="submit"
+                style="width: 100px; height: 50px; background-color: cyan; color: black; margin-bottom: 10px; margin-top: 50px;">Sign Up</button>
+        </div>
+        <h2 id="pass" style="visibility: hidden;">High Five!! Welcome To The Club</h2>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
